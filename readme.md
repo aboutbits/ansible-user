@@ -35,3 +35,5 @@ mkpasswd --method=SHA-512
 
 The command is contained within the package "whois" that can be installed on
 Linux by executing `apt-get install -y whois`.
+
+Just a simple verion test.
