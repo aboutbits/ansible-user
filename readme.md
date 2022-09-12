@@ -14,8 +14,9 @@ User creation role.
 
 ```yaml
 - hosts: all
-  roles:
-    - role: ansible-user
+  tasks:
+    - ansible.builtin.include_role:
+        name: ansible-user
       vars:
         user_name: alex
         user_password: sha512-hashed-password
